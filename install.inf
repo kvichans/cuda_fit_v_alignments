@@ -2,8 +2,8 @@
 title=FitVAlings
 desc=Plugin for CudaText. Developer tool: to fit control vertical alingments on any platform.
 type=cudatext-plugin
-subdir=cuda_fit_valings
-homepage=https://github.com/kvichans/cuda_fit_valings
+subdir=cuda_fit_v_alignments
+homepage=https://github.com/kvichans/cuda_fit_v_alignments
 
 [item1]
 section=commands
