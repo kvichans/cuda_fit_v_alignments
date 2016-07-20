@@ -355,7 +355,8 @@ def fit_top_by_env(what_tp, base_tp='label'):
         pass;                  #log('cashed what_tp, base_tp={}',(what_tp, base_tp))
         return fit_top_by_env__cash[(what_tp, base_tp)]
     env     = get_desktop_environment()
-    fit4lb  = ENV2FITS.get(env, ENV2FITS.get('windows'))
+    pass;                      #env = 'mac'
+    fit4lb  = ENV2FITS.get(env, ENV2FITS.get('win'))
     fit     = 0
     if base_tp=='label':
         fit = apx.get_opt('dlg_wrapper_fit_va_for_'+what_tp, fit4lb.get(what_tp, 0))
