@@ -320,7 +320,7 @@ ENV2FITS= {'win':
             ,'linklabel'  : 0
             ,'spinedit'   :-3
             }
-          ,'unit':
+          ,'unity':
             {'check'      :-3
             ,'edit'       :-5
             ,'button'     :-4
